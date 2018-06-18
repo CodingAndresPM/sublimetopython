@@ -1,0 +1,30 @@
+## Made by: Andres Pinon
+## My Social Network
+
+
+	class User:
+	def __init__ (self, firstname, lastname, username, bio, userID):
+		self.firstname = firstname
+		self.lastname = lastname
+		self.username = username
+		self.bio = bio
+		self.userID = userID
+		self.friends = []
+		self.posts = []
+
+	def addFriend(self,username):
+		self.friends.append(username)
+
+##	def unFriend():
+##
+##	def viewNewsFeed():
+
+
+if __name__ == "__main__":
+	firstname = "Andres"
+	lastname = "Pinon"
+	username = "andrespinonm"
+	bio = "i am cool"
+	userID = 0000
+
+	Andres = User(firstname, lastname, username, bio, userID)
